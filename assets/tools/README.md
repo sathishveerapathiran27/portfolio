@@ -1,0 +1,1 @@
+Microsoft Azure architecture icons, sourced from https://learn.microsoft.com/en-us/azure/architecture/icons/ . Used here to illustrate tools in a data platform architecture. Microsoft retains ownership. Icons are preserved unmodified.
