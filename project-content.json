@@ -1,0 +1,14 @@
+{
+  "_note": "Editorial source placeholders. Null fields are intentionally unpublished until confirmed. Existing card artwork is illustrative, not a screenshot. Do not infer project status from the presence of a URL. Experiments category is reserved until a project is confirmed as experimental or conceptual.",
+  "projects": [
+    { "title": "Carrio", "category": "Featured Products", "description": "An AI-assisted job search platform built for the Indian market.", "liveUrl": "https://carrio.in", "status": null, "stack": null, "role": null, "architecture": null, "validation": null, "outcome": null, "screenshot": null, "githubUrl": null },
+    { "title": "Enterprise data platforms", "category": "Data Engineering Projects", "description": "Cloud pipelines and reporting across real estate, healthcare finance, supply chain and financial services.", "status": null, "stack": null, "role": null, "architecture": null, "validation": null, "outcome": null, "screenshot": null, "liveUrl": null, "githubUrl": null },
+    { "title": "Trillion Data Labs", "category": "Independent Projects", "role": "Co-founder", "description": "A data consulting company I am co-founding.", "status": "Ongoing", "stack": null, "architecture": null, "outcome": null, "screenshot": null, "liveUrl": null, "githubUrl": null },
+    { "title": "LevelUp", "category": "Independent Projects", "description": "Android app", "status": null, "stack": null, "role": null, "problem": null, "architecture": null, "outcome": null, "screenshot": null, "liveUrl": null, "githubUrl": null },
+    { "title": "RidersGuild", "category": "Independent Projects", "description": "Community / app project", "status": null, "stack": null, "role": null, "problem": null, "architecture": null, "outcome": null, "screenshot": null, "liveUrl": null, "githubUrl": null },
+    { "title": "BT Collections", "category": "Independent Projects", "description": "Web app", "status": null, "stack": null, "role": null, "problem": null, "architecture": null, "outcome": null, "screenshot": null, "liveUrl": null, "githubUrl": null },
+    { "title": "G&S Construction", "category": "Client Work", "description": "Client website project", "status": null, "stack": null, "role": null, "problem": null, "architecture": null, "outcome": null, "screenshot": null, "liveUrl": null, "githubUrl": null },
+    { "title": "Side by Side Tailoring", "category": "Client Work", "description": "Tailoring business client", "status": null, "stack": null, "role": null, "problem": null, "architecture": null, "outcome": null, "screenshot": null, "liveUrl": null, "githubUrl": null },
+    { "title": "FitX100", "category": "Independent Projects", "description": "Portfolio project", "status": null, "stack": null, "role": null, "problem": null, "architecture": null, "outcome": null, "screenshot": null, "liveUrl": null, "githubUrl": null }
+  ]
+}
