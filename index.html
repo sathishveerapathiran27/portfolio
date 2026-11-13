@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="refinements.css">
     <script src="script.js" defer></script>
     <script src="resume-dialog.js" defer></script>
+    <script src="analytics-config.js" defer></script>
+    <script src="analytics.js" defer></script>
   </head>
   <body><a class="skip" href="#main">Skip to content</a>
     <nav aria-label="Main navigation">
@@ -604,7 +606,14 @@
     <footer>
       <div class="wrap"><span>© <span id="year"></span> Sathish Veerapathiran</span><span>Built with care. Debugged with coffee. <a href="#">Back to top ↑</a></span>
       </div>
+      <div class="wrap analytics-footer"><a href="https://analytics.google.com/" target="_blank" rel="noopener noreferrer">Owner analytics dashboard ↗</a><button id="analytics-settings" type="button" hidden>Analytics preferences</button></div>
     </footer>
+    <aside id="analytics-consent" class="analytics-consent" aria-labelledby="analytics-consent-title" hidden>
+      <strong id="analytics-consent-title">Help me understand what’s useful</strong>
+      <p>With your permission, Google Analytics measures visits, resume download clicks and contact clicks using cookies. Names, email addresses and message text from the form are not sent. Your choice won’t affect the site.</p>
+      <div><button type="button" id="analytics-accept">Allow analytics</button><button type="button" id="analytics-decline">No thanks</button></div>
+      <p id="analytics-choice-status" role="status"></p>
+    </aside>
 
   </body>
 </html>

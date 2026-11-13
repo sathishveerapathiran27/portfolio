@@ -1,5 +1,14 @@
 /* Final component layer; original artwork and visual identity remain in styles.css. */
 :root { --muted: #5f665c; --green: #253b31; --radius: 20px; }
+[hidden] { display: none !important; }
+.analytics-footer { display: flex; flex-wrap: wrap; gap: 20px; padding-top: 14px; padding-bottom: 20px; font-size: 12px; }
+.analytics-footer button { border: 0; padding: 0; color: inherit; background: transparent; text-decoration: underline; min-height: 32px; }
+.analytics-consent { position: fixed; bottom: 16px; left: 16px; z-index: 100; width: min(430px, calc(100% - 32px)); max-height: calc(100dvh - 32px); overflow: auto; background: var(--paper); color: var(--ink); border: 1px solid var(--line); border-radius: 16px; padding: 22px; box-shadow: 0 8px 40px #253b3133; }
+.analytics-consent p { font-size: 13px; line-height: 1.6; }
+.analytics-consent > div { display: flex; flex-wrap: wrap; gap: 10px; }
+.analytics-consent button { min-height: 44px; border: 1px solid var(--green); border-radius: 8px; padding: 8px 14px; background: var(--paper); color: var(--green); }
+.analytics-consent #analytics-accept { background: var(--green); color: var(--paper); }
+.analytics-consent #analytics-choice-status:empty { display: none; }
 button, input, select, textarea { font: inherit; }
 input, select, textarea { min-width: 0; }
 :focus-visible { outline: 3px solid #a94722; outline-offset: 4px; }
